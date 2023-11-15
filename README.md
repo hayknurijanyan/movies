@@ -5,6 +5,7 @@ This project is a simple movies app built with React. It displays trending movie
 ## Running the Project
 
 ### Prerequisites
+
 - Node.js and npm should be installed on your machine.
 
 ### Steps to Run the Project
@@ -15,9 +16,9 @@ This project is a simple movies app built with React. It displays trending movie
 npm install && npm run dev
 
 About the App
+
 The Movies App is a React-based application that displays a list of trending movies. It features a carousel-like display for easy browsing through the movies. Clicking on a movie presents additional details and information about that particular movie.
 
 Components
 FeaturedMovie: Displays the details of the currently featured movie.
 TrendingMovies: Renders a list of trending movies with cover images.
- 
