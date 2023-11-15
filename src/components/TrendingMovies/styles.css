@@ -1,0 +1,37 @@
+.section-title {
+  color: white;
+  margin: 8px 18px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.trending-movies-container {
+  position: relative;
+  overflow-x: auto;
+  padding: 24px 0;
+  height: 40%;
+  min-height: 300px;
+}
+
+.trending-movies {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.movie-item {
+  margin-left: 14px;
+  flex: 0 0 auto;
+  width: 200px;
+  height: 296px;
+  background-size: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+}
+
+.movie-item:hover {
+  transform: scale(1.05);
+}
+.trending-movies-container::-webkit-scrollbar {
+  display: none;
+}
