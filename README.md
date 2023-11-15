@@ -1,8 +1,23 @@
-# React + Vite
+# Movies App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple movies app built with React. It displays trending movies and allows users to select a movie to view details.
 
-Currently, two official plugins are available:
+## Running the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js and npm should be installed on your machine.
+
+### Steps to Run the Project
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+
+npm install && npm run dev
+
+About the App
+The Movies App is a React-based application that displays a list of trending movies. It features a carousel-like display for easy browsing through the movies. Clicking on a movie presents additional details and information about that particular movie.
+
+Components
+FeaturedMovie: Displays the details of the currently featured movie.
+TrendingMovies: Renders a list of trending movies with cover images.
+ 
